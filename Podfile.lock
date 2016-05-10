@@ -1,0 +1,39 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Keys (1.0.0)
+  - PubNub (4.3.0):
+    - CocoaLumberjack (= 2.2.0)
+    - PubNub/Core (= 4.3.0)
+  - PubNub/Core (4.3.0):
+    - CocoaLumberjack (= 2.2.0)
+  - SwiftTask (4.2.1)
+
+DEPENDENCIES:
+  - JSQMessagesViewController
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - PubNub
+  - SwiftTask
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Keys: 7d2ff6ff42f6903358267ce56e9392f83c31acfe
+  PubNub: a05f2a2c6cc1f637a0c473f236c4671c0b8c09b1
+  SwiftTask: 30423c2499ac69e3fc20c001600ab7de46efeed1
+
+COCOAPODS: 0.39.0
